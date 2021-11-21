@@ -9,4 +9,4 @@ for param in "$@"; do
     count=$(( $count + 1 ))
 done
 
-echo "====="
+
