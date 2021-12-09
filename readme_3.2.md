@@ -24,7 +24,7 @@
     ```bash
        vagrant@vagrant:~$ cat test_bash
        imeem text
-       na neskol`ko
+       na neskolko
        strok
        absolutno
        niochem
@@ -33,7 +33,7 @@
        vagrant@vagrant:~$ cat <test_bash >test_bash_out
        vagrant@vagrant:~$ cat test_bash_out
        imeem text
-       na neskol`ko
+       na neskolko
        strok
        absolutno
        niochem
