@@ -113,9 +113,9 @@
    netdata 50358 netdata    4u  IPv4 1003958      0t0  TCP localhost:19999 (LISTEN)
    21:56:39 lemita@lemita(0):~/vagrant$ sudo lsof -i :9999
    COMMAND     PID USER   FD   TYPE  DEVICE SIZE/OFF NODE NAME
-   chrome     4089 alex   80u  IPv4 1112886      0t0  TCP localhost:38598->localhost:9999 (ESTABLISHED)
-   VBoxHeadl 52075 alex   21u  IPv4 1053297      0t0  TCP *:9999 (LISTEN)
-   VBoxHeadl 52075 alex   30u  IPv4 1113792      0t0  TCP localhost:9999->localhost:38598 (ESTABLISHED)
+   chrome     4089 lemita   80u  IPv4 1112886      0t0  TCP localhost:38598->localhost:9999 (ESTABLISHED)
+   VBoxHeadl 52075 lemita   21u  IPv4 1053297      0t0  TCP *:9999 (LISTEN)
+   VBoxHeadl 52075 lemita   30u  IPv4 1113792      0t0  TCP localhost:9999->localhost:38598 (ESTABLISHED)
    ```
    информация с vm машины:
    ```bash
